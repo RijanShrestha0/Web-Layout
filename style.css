@@ -1,0 +1,124 @@
+body{
+    margin: 20px auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    max-width: 950px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 40px 0 rgba(0,0,0,.08);
+    transition: all 300ms ease;
+}
+a{
+    margin: 15px;
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color:#00A468;
+    transition: all 800ms ease-in-out;
+}
+.logo{
+    flex-basis: auto;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+    cursor: pointer;
+}
+.GFQ{
+    background-color: #00A468;
+    color: white !important;
+    padding: 15px 30px;
+}
+.GFQ:hover{
+    background-color: #111;
+    transition: all .25s ease-in-out;
+}
+#container{
+    margin: 30px auto;
+    overflow: hidden;
+}
+.intro{
+    display: inline-block;
+
+    font-size: 12px;
+    text-decoration: 3px underline #00A468;
+    text-transform: uppercase;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 950px;
+}
+.title{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    max-width: 500px;
+}
+.text{
+    font-size: 14px;
+    color: #888;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+}
+.sector{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 40px 0 rgba(0,0,0,.08);
+}
+.row-sector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-sector-1,
+#img-sector-2,
+#img-sector-3,
+#img-sector-4{
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: contain;
+    transition: all .5s ease-in-out;
+}
+#img-sector-1:hover,
+#img-sector-2:hover,
+#img-sector-3:hover,
+#img-sector-4:hover{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+a .content{
+    color: #111;
+    font-weight: bolder;
+}
+.cntr{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.row-au{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 950px;
+}
+.about{
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: 3px underline #00A468;
+    text-transform: uppercase;
+}
